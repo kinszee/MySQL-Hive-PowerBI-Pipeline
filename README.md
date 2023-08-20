@@ -6,18 +6,19 @@ The project aims to create 3 dashboards for a client's Pizza restuarant. The cli
 3. Staff management
 
 *PROJECT GOALS*
-- Create normalized database schema in MySQL
-- Build analytical Hive database on top of MySQL data
-- Develop HiveQL views for reporting
-- Connect Hive to Power BI using ODBC driver
+- Create database schema in MySQL
+- Build Hive database on top of MySQL data
+- Develop Hive views for reporting
 - Create interactive Power BI dashboards and reports
 
 *REQUIREMENTS*
 > Data Model Requirements
 * MySQL DB with address, customers, ingredient, inventory, item, orders, recipe, rota, shift and staff tables
-* Hive DB with external tables matching MySQL schemas
-* Hive views to join data for analysis
 * Referential integrity between MySQL tables
+* Hive DB with external tables matching MySQL schemas
+* Hive views to join data for analysis 
+* ODBC driver to connect Hive to Power BI
+
   
 > Dashboard Requirements
 * Ability to filter by date, time, item and staff name.
@@ -47,7 +48,7 @@ The project aims to create 3 dashboards for a client's Pizza restuarant. The cli
     * iii) Hours worked by individual staff members
     * iv) Cost per staff member
 
-  *IMPLEMENTATION*
-  - Create normalized database schema in MySQL: I used Quick DBD which allows for defining DB table names, field names, data type and primary keys. It generated create table schemas which I ran in terminal.
+  *CHALLENGES*
+  - First Name, Last name and houry_rate fields were showing as NULL values when performing JOINS on rota, staff and shift tables. Inspection of CREATE TABLE 
   - 
          

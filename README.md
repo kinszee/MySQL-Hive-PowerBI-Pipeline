@@ -49,4 +49,8 @@ create visualizations.
     * ii) Total hours worked
     * iii) Hours worked by individual staff members
     * iv) Cost per staff member
-       
+
+  *IMPLEMENTATION*
+  - Create normalized database schema in MySQL: I used Quick DBD which allows for defining DB table names, field names, data type and primary keys. It generated create table schemas which I ran in terminal.
+  - 
+         

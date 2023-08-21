@@ -49,5 +49,5 @@ The project achieved aim to create 3 dashboards for a client's Pizza restuarant.
     * iv) Cost per staff member
 
   *CHALLENGES*
-  - First Name, Last name and houry_rate fields were returning NULL values when performing Hive/MySQL JOINS on rota, staff and shift tables. Inspection TABLE schema shows no errors in creating table or wrong data type/constraints. Source csv file was inspected and trimmed to remove hidden space but did not resolve the issue. Moreover, querying staff table (i.e. without JOINS) returns expected data both in MySQL and Hive. The workaround for this was to perform a JOIN like action in Power Query using Merge Queries functionality.
+  - First Name, Last name and houry_rate fields were returning NULL values when performing Hive/MySQL JOINS on rota, staff and shift tables. Inspection of TABLE schema shows no errors in creating table or wrong data type/constraints. Source csv file were also inspected and trimmed to remove hidden space but did not resolve the issue. Moreover, querying staff table (i.e. without JOINS) returns expected data both in MySQL and Hive. The workaround for this was to perform a JOIN like action in Power Query using Merge Queries functionality.
          

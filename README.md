@@ -11,7 +11,7 @@ The project achieved aim to create 3 dashboards for a client's Pizza restuarant.
 - Develop Hive views for reporting
 - Create interactive Power BI dashboards and reports
 
-*REQUIREMENTS*
+*REQUIREMENTS AND DELIVERABLES*
 > Data Model Requirements
 * MySQL DB with address, customers, ingredient, inventory, item, orders, recipe, rota, shift and staff tables
 * Referential integrity between MySQL tables
@@ -20,7 +20,7 @@ The project achieved aim to create 3 dashboards for a client's Pizza restuarant.
 * ODBC driver to connect Hive to Power BI
 
   
-> Dashboard Requirements
+> Dashboard Deliverables 
 * Ability to filter by date, time, item and staff name.
 * Interactive reports in Power BI for:
   * Order Activity

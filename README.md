@@ -1,6 +1,6 @@
 # MySQL-Hive-PowerBI-Pipeline
 
-The project aims to create 3 dashboards for a client's Pizza restuarant. The client has requirements to show 
+The project achieved aim to create 3 dashboards for a client's Pizza restuarant. The client requirements are to have business intelligence on 
 1. Order Activity
 2. Inventory Management
 3. Staff management

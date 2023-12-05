@@ -7,7 +7,7 @@ The project achieved aim to create dashboards from client's Sales, Inventory and
 
 *PROJECT GOALS*
 - Create database schema in MySQL
-- Build Hive database on top of MySQL data
+- Build Hive tables on MySQL data
 - Develop Hive views for reporting
 - Create interactive Power BI dashboards and reports
 
